@@ -1,0 +1,22 @@
+@font-face{
+  font-family: 'med';
+  src: url("./assets//Fonts/med.woff2");
+}
+@font-face{
+  font-family: 'book';
+  src: url("./assets//Fonts/book.woff2");
+}
+@font-face{
+  font-family: 'bold';
+  src: url("./assets//Fonts/bold.woff2");
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0px;
+
+}
+body{
+  height: 100%;
+  background-color: white;
+}
