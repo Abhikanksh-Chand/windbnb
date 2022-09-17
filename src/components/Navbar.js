@@ -11,7 +11,7 @@ function Navbar(){
         <img className="logo-img"src={Logo} alt="Logo" />
         <Searchbar />
         <div className="user-info">
-        <button>Become a host</button>
+        <a> <button className="bah">Become a host</button> </a>
         <button className="btn-globe"><img src={Globe} alt="Globe" /></button>
             <button className="user-profile">
                 <img src ={Hamburger}  alt ="hamburger"/>
