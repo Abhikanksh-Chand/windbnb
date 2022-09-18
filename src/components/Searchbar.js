@@ -1,3 +1,4 @@
+import Search from "../assets/icons/search.svg"
 
 function Searchbar(){
     return (
@@ -6,7 +7,7 @@ function Searchbar(){
             <button>Anywhere</button>
             <button>Any week</button>
             <button>Add guest</button>
-            <button className="btn btn-logo"></button>
+            <button className="btn btn-logo"><img src={Search}></img></button>
         </div>
         </div>
     );
